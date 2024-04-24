@@ -1,7 +1,7 @@
 # Gaussian Mixture Model Image Segmentation
 This project utilizes mixed gaussians to compute the probability of whether a pixel belongs to the desired object (i.e. distribution).
 ### Training Data
-![image](https://github.com/XDDz123/mixed-gauss-segmentation/assets/20507222/e8cc0a0e-b645-4b10-bf03-9e9b31ff18e3)
+![image](https://github.com/XDDz123/mixed-gauss-segmentation/assets/20507222/e8cc0a0e-b645-4b10-bf03-9e9b31ff18e3) </br>
 As shown in the image above, the model takes images and correspondings masks as inputs. </br>
 In this case, apples are masked out for training a model which can detect apples within pictures.
 ### Tuning
