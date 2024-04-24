@@ -1,5 +1,5 @@
 # Gaussian Mixture Model Image Segmentation </br>
-This project implemented mixed gaussians from scratch to compute the probability of whether a pixel belongs to the desired object. </br> </br>
+This project implemented mixed gaussians (GMM) from scratch to compute the probability of whether a pixel belongs to the desired object. </br> </br>
 The optimization contains two steps which are repeated until convergence:
 * Expectation step: compute the posterior probability given the current model to determine which data point belongs to which gaussian.
 * Maximization Step: update the gaussian distributions' properties to maximize the probability of generating data points belonging them.
