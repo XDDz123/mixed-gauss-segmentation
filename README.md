@@ -1,5 +1,10 @@
-# Gaussian Mixture Model Image Segmentation
-This project implemented mixed gaussians from scratch to compute the probability of whether a pixel belongs to the desired object (i.e. distribution).
+# Gaussian Mixture Model Image Segmentation </br>
+This project implemented mixed gaussians from scratch to compute the probability of whether a pixel belongs to the desired object. </br> </br>
+The optimization contains two steps which are repeated until convergence:
+* Expectation step: compute the posterior probability given the current model to determine which data point belongs to which gaussian.
+* Maximization Step: update the gaussian distributions' properties to maximize the probability of generating data points belonging them.
+
+This process is known as the [Expectation Maximization algorithm](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm).
 ### Training Data
 ![image](https://github.com/XDDz123/mixed-gauss-segmentation/assets/20507222/e8cc0a0e-b645-4b10-bf03-9e9b31ff18e3) </br>
 As shown in the image above, the model takes images and correspondings masks as inputs. </br>
